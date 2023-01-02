@@ -1,1 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+.order {
+  width: 300px;
+  height: 450px;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+.order-image {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
