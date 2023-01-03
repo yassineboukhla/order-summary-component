@@ -7,6 +7,7 @@
 }
 body {
   background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
 }
 .order {
   width: 300px;
@@ -16,9 +17,79 @@ body {
   margin-right: auto;
   margin-top: 200px;
   border-radius: 20px;
+  text-align: center;
 }
 .order-image {
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  margin-bottom: 20px;
+}
+.order-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.order-description {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 20px;
+}
+.order-details {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(222, 63%, 85%);
+  width: 90%;
+  padding: 10px 20px;
+  /* justify-content: space-between; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.order-icon {
+  width: 35px;
+  margin-right: 10px;
+}
+.order-plan {
+  font-size: 12px;
+}
+.order-price {
+  color: hsl(240, 0%, 45%);
+}
+.order-link {
+  font-size: 10px;
+  margin-left: 80px;
+}
+.order-link:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+.order-btn-proceed {
+  width: 90%;
+  padding: 10px 20px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  box-shadow: 0px 6px 8px hsl(225, 4%, 78%);
+}
+.order-btn-proceed:hover {
+  opacity: 0.6;
+}
+.order-btn-cancel {
+  width: 90%;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: hsl(240, 0%, 45%);
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+}
+.order-btn-cancel:hover {
+  color: hsl(245, 65%, 32%);
 }

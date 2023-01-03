@@ -9,6 +9,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I Learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -21,15 +22,19 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://www.github.com/order-summary-component)
+- Live Site URL: [Github Live Page](https://yassineboukhla.github.io/order-summary-component)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- CSS
+
+### What I Learned
+
+- I got deeper a little bit with box shadow property.
 
 ## Author
 
